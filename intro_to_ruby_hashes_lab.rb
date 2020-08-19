@@ -1,6 +1,6 @@
 def base_hash
   hash = {
-    :railrods => {}
+    :railroads => {}
   }
   hash 
   # Remember implicit return! We're returning this new Hash _without_ the
@@ -10,7 +10,7 @@ end
 
 def monopoly_with_second_tier
   hash = {
-    :railrods => {
+    :railroads => {
       :pieces => 4,
       :rent_in_dollars => {},
       :names => {}
